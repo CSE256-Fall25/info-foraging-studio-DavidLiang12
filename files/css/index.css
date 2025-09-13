@@ -109,3 +109,7 @@ main hr {
     background-color: #eee;
     height: 1px;
 }
+
+.classroom-news-header h3 {
+  font-size: 2.5em; 
+}

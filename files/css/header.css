@@ -148,3 +148,16 @@ header a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#site-header {
+  position: sticky;
+  top: calc(env(safe-area-inset-top, 0px) + 40px);
+  z-index: 1000;
+  background: #fff;
+}
+
+#site-header,
+#site-header .container,
+#site-header #main-menu-container {
+  overflow: visible;
+}

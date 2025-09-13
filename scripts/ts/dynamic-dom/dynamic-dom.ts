@@ -11,6 +11,9 @@ export function PutStudentPageLoadOperationsInsideThisStudentBody() {
     doSomething();
 }
 
+
+
+
 export async function setupAll() {
     await new Promise((r: any) => setTimeout(r, 100));
     console.log('reloading');
